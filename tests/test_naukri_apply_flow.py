@@ -1,6 +1,6 @@
 import pytest
 
-from Naukari.naukri_flow import NaukriApplicationFlow
+from naukri_flow import NaukriApplicationFlow
 
 
 def test_naukri_job_apply_flow(driver):
