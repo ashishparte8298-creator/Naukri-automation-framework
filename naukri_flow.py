@@ -10,7 +10,7 @@
 import sys
 import time
 
-from Naukari.config import (
+from config import (
     LOCATIONS,
     MAX_PAGES,
     NAUKRI_PASSWORD,
