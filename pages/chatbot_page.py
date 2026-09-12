@@ -12,9 +12,8 @@ import time
 
 from selenium.webdriver.common.by import By
 
-from Naukari.config import APPLICATION_ANSWERS
-from Naukari.pages.base_page import BasePage, log
-
+from config import APPLICATION_ANSWERS
+from pages.base_page import BasePage, log
 
 class ChatbotPage(BasePage):
     """Handles interaction with Naukri screening chatbot."""

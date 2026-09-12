@@ -13,7 +13,7 @@ from datetime import datetime
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font
 
-from Naukari.config import (
+from config import (
     EXCLUSION_TITLE_KEYWORDS,
     OUTPUT_FILE,
     OUTPUT_FOLDER,

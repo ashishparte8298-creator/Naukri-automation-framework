@@ -13,8 +13,8 @@ import time
 
 from selenium.webdriver.common.by import By
 
-from Naukari.config import JOB_KEYWORD, MAX_SCROLLS
-from Naukari.pages.base_page import BasePage, log
+from config import JOB_KEYWORD, MAX_SCROLLS
+from pages.base_page import BasePage, log
 
 
 class SearchPage(BasePage):

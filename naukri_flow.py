@@ -17,11 +17,11 @@ from config import (
     NAUKRI_USERNAME,
     SKIP_STATUSES,
 )
-from Naukari.pages.chatbot_page import ChatbotPage
-from Naukari.pages.job_page import JobPage
-from Naukari.pages.login_page import LoginPage
-from Naukari.pages.search_page import SearchPage
-from Naukari.utils.excel_utils import ExcelJobsRepository
+from pages.chatbot_page import ChatbotPage
+from pages.job_page import JobPage
+from pages.login_page import LoginPage
+from pages.search_page import SearchPage
+from utils.excel_utils import ExcelJobsRepository
 
 
 def log(message):

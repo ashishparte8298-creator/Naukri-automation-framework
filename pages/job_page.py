@@ -13,7 +13,7 @@ import time
 
 from selenium.webdriver.common.by import By
 
-from Naukari.pages.base_page import BasePage, log
+from pages.base_page import BasePage, log
 
 
 class JobPage(BasePage):
