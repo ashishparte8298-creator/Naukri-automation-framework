@@ -147,7 +147,7 @@ class NaukriApplicationFlow:
                 formatted_result = result.upper().replace(" ", "_")
                 log(formatted_result)
             except Exception as error:
-                log("Application error:", error)
+                log(f"Application error: {error}")
                 self.excel.update_status(job, "Error")
 
             time.sleep(2)
