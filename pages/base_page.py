@@ -14,6 +14,7 @@ def log(message):
     """Print message with immediate flush to ensure real-time output."""
     print(message, flush=True)
     sys.stdout.flush()
+#Send all pending output to the terminal right now.
 
 
 class BasePage:
